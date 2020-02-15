@@ -278,7 +278,8 @@ EOF
     popd
 
     pushd kernel/sony/msm-4.9/kernel
-        _pick_pr sony 2184 3
+        # Linux 4.9.214
+        _pick_pr sony 2192
     popd
 
     # ----------------------------------------------------------------------
