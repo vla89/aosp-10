@@ -4,11 +4,11 @@ set -eu
 # ----------------------------------------------------------------------
 # Variables that can be overriden by caller
 # ----------------------------------------------------------------------
-SOURCE=${SOURCE:-~/android/source}
+SOURCE=${SOURCE:-~/android/aosp}
 APK_DIR=${APK_DIR:-~/android/apk}
-LUNCH_CHOICE=${LUNCH_CHOICE:-aosp_g8441-userdebug}
-PLATFORM=${PLATFORM:-yoshino}
-DEVICE=${DEVICE:-lilac}
+LUNCH_CHOICE=${LUNCH_CHOICE:-aosp_f5121-userdebug}
+PLATFORM=${PLATFORM:-loire}
+DEVICE=${DEVICE:-suzu}
 # ----------------------------------------------------------------------
 
 _show_help() {
